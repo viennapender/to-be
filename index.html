@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Welcome</h1>
+        <p>You have just woken up. 
+        <br>Where are you? What is this place? </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Choose wisely</h2>
+
+        <style>
+            h1 {color:rgb(226, 194, 33); 
+                font-family: fantasy;
+                font-size: 60px; 
+                text-align: center; 
+                text-decoration: line-through; 
+                text-decoration-color: black; 
+                text-decoration-thickness: 5px;
+            }
+            p { font-family: fantasy;
+                font-size: 25px; 
+                text-align: center;
+            }
+            h2 {color: rgb(255, 255, 255);
+                font-family:'Courier New';
+                font-size: 25px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+            body {
+                background-image: url(room.jpeg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                background-color: rgb(255, 255, 255);
+            }
+            #left {position: absolute; 
+                top: 330px; 
+                left: 520px;
+                display: inline-block;
+            }
+            #left:hover {opacity: 0;}
+
+            #right {position: absolute; 
+                top: 330px; 
+                left: 880px;
+                display: inline-block;
+            }
+            #right:hover {opacity: 0;}
+
+            #leftopen {position: absolute; 
+                top: 325px; 
+                left: 455px;
+                opacity: 1%;
+            }
+            #leftopen:hover {opacity: 100%;}
+
+            #rightopen {position: absolute; 
+                top: 325px; 
+                left: 880px;
+                opacity: 1%;
+            }
+            #rightopen:hover {opacity: 100%;}
+        </style>
+
+            <img src="leftclosed.png" id="left" width="115px">
+            <img src="rightclosed.png" id="right" width="115px">
+          <a href="field.html"><img src="leftopen.png" id="leftopen" width="180px"></a>
+          <a href="desert.html"><img src="rightopen.png" id="rightopen" width="180px"></a>
+        
+    </body>
+</html>
